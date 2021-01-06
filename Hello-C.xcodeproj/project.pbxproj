@@ -15,6 +15,7 @@
 		DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5025A5672F00E086CE /* DynamicAllocation.cpp */; };
 		DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5625A5677A00E086CE /* CharOperate.cpp */; };
 		DF3D0C5D25A567B700E086CE /* Clazz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5B25A567B700E086CE /* Clazz.cpp */; };
+		DF8EC36725A5E3BA00B3D457 /* CopyDestructorClas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		DF3D0C5725A5677A00E086CE /* CharOperate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CharOperate.hpp; sourceTree = "<group>"; };
 		DF3D0C5B25A567B700E086CE /* Clazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clazz.cpp; sourceTree = "<group>"; };
 		DF3D0C5C25A567B700E086CE /* Clazz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clazz.hpp; sourceTree = "<group>"; };
+		DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CopyDestructorClas.cpp; sourceTree = "<group>"; };
+		DF8EC36625A5E3BA00B3D457 /* CopyDestructorClas.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CopyDestructorClas.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 			children = (
 				DF3D0C5B25A567B700E086CE /* Clazz.cpp */,
 				DF3D0C5C25A567B700E086CE /* Clazz.hpp */,
+				DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */,
+				DF8EC36625A5E3BA00B3D457 /* CopyDestructorClas.hpp */,
 			);
 			path = clazz;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */,
 				DF3D0C4C25A566CC00E086CE /* IO.cpp in Sources */,
 				DF3D0C4625A5665100E086CE /* StructPointer.cpp in Sources */,
+				DF8EC36725A5E3BA00B3D457 /* CopyDestructorClas.cpp in Sources */,
 				DF3D0C4125A5660A00E086CE /* FunctionPointer.cpp in Sources */,
 				DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */,
 				DF3D0C3D25A5655100E086CE /* pointerOperate.cpp in Sources */,
