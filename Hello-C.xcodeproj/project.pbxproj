@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DF3D0C3325A5651F00E086CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C3225A5651F00E086CE /* main.cpp */; };
+		DF3D0C3D25A5655100E086CE /* pointerOperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C3B25A5655100E086CE /* pointerOperate.cpp */; };
+		DF3D0C4125A5660A00E086CE /* FunctionPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C3F25A5660A00E086CE /* FunctionPointer.cpp */; };
+		DF3D0C4625A5665100E086CE /* StructPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C4425A5665100E086CE /* StructPointer.cpp */; };
+		DF3D0C4C25A566CC00E086CE /* IO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C4A25A566CC00E086CE /* IO.cpp */; };
+		DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5025A5672F00E086CE /* DynamicAllocation.cpp */; };
+		DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5625A5677A00E086CE /* CharOperate.cpp */; };
+		DF3D0C5D25A567B700E086CE /* Clazz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5B25A567B700E086CE /* Clazz.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		DF3D0C2F25A5651F00E086CE /* Hello-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3D0C3225A5651F00E086CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF3D0C3B25A5655100E086CE /* pointerOperate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointerOperate.cpp; sourceTree = "<group>"; };
+		DF3D0C3C25A5655100E086CE /* pointerOperate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointerOperate.hpp; sourceTree = "<group>"; };
+		DF3D0C3F25A5660A00E086CE /* FunctionPointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionPointer.cpp; sourceTree = "<group>"; };
+		DF3D0C4025A5660A00E086CE /* FunctionPointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctionPointer.hpp; sourceTree = "<group>"; };
+		DF3D0C4425A5665100E086CE /* StructPointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StructPointer.cpp; sourceTree = "<group>"; };
+		DF3D0C4525A5665100E086CE /* StructPointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StructPointer.hpp; sourceTree = "<group>"; };
+		DF3D0C4A25A566CC00E086CE /* IO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IO.cpp; sourceTree = "<group>"; };
+		DF3D0C4B25A566CC00E086CE /* IO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IO.hpp; sourceTree = "<group>"; };
+		DF3D0C5025A5672F00E086CE /* DynamicAllocation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicAllocation.cpp; sourceTree = "<group>"; };
+		DF3D0C5125A5672F00E086CE /* DynamicAllocation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DynamicAllocation.hpp; sourceTree = "<group>"; };
+		DF3D0C5625A5677A00E086CE /* CharOperate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharOperate.cpp; sourceTree = "<group>"; };
+		DF3D0C5725A5677A00E086CE /* CharOperate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CharOperate.hpp; sourceTree = "<group>"; };
+		DF3D0C5B25A567B700E086CE /* Clazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clazz.cpp; sourceTree = "<group>"; };
+		DF3D0C5C25A567B700E086CE /* Clazz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clazz.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +78,63 @@
 		DF3D0C3125A5651F00E086CE /* Hello-C */ = {
 			isa = PBXGroup;
 			children = (
+				DF3D0C5A25A567A700E086CE /* clazz */,
+				DF3D0C5525A5676100E086CE /* char */,
+				DF3D0C4F25A5671B00E086CE /* dynamicAllocation */,
+				DF3D0C4925A566B800E086CE /* io */,
+				DF3D0C3A25A5653100E086CE /* pointer */,
 				DF3D0C3225A5651F00E086CE /* main.cpp */,
 			);
 			path = "Hello-C";
+			sourceTree = "<group>";
+		};
+		DF3D0C3A25A5653100E086CE /* pointer */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D0C3B25A5655100E086CE /* pointerOperate.cpp */,
+				DF3D0C3C25A5655100E086CE /* pointerOperate.hpp */,
+				DF3D0C3F25A5660A00E086CE /* FunctionPointer.cpp */,
+				DF3D0C4025A5660A00E086CE /* FunctionPointer.hpp */,
+				DF3D0C4425A5665100E086CE /* StructPointer.cpp */,
+				DF3D0C4525A5665100E086CE /* StructPointer.hpp */,
+			);
+			path = pointer;
+			sourceTree = "<group>";
+		};
+		DF3D0C4925A566B800E086CE /* io */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D0C4A25A566CC00E086CE /* IO.cpp */,
+				DF3D0C4B25A566CC00E086CE /* IO.hpp */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		DF3D0C4F25A5671B00E086CE /* dynamicAllocation */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D0C5025A5672F00E086CE /* DynamicAllocation.cpp */,
+				DF3D0C5125A5672F00E086CE /* DynamicAllocation.hpp */,
+			);
+			path = dynamicAllocation;
+			sourceTree = "<group>";
+		};
+		DF3D0C5525A5676100E086CE /* char */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D0C5625A5677A00E086CE /* CharOperate.cpp */,
+				DF3D0C5725A5677A00E086CE /* CharOperate.hpp */,
+			);
+			path = char;
+			sourceTree = "<group>";
+		};
+		DF3D0C5A25A567A700E086CE /* clazz */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D0C5B25A567B700E086CE /* Clazz.cpp */,
+				DF3D0C5C25A567B700E086CE /* Clazz.hpp */,
+			);
+			path = clazz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */,
+				DF3D0C4C25A566CC00E086CE /* IO.cpp in Sources */,
+				DF3D0C4625A5665100E086CE /* StructPointer.cpp in Sources */,
+				DF3D0C4125A5660A00E086CE /* FunctionPointer.cpp in Sources */,
+				DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */,
+				DF3D0C3D25A5655100E086CE /* pointerOperate.cpp in Sources */,
+				DF3D0C5D25A567B700E086CE /* Clazz.cpp in Sources */,
 				DF3D0C3325A5651F00E086CE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
