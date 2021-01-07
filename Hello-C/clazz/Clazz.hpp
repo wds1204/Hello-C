@@ -49,4 +49,16 @@ class Box
 
 void display(Box obj);
 
+//C++中的函数重载、运算符重载
+
+class PrintData
+{
+public:
+    void print(int i);
+    void print(double f);
+    void print(char c[]);
+};
+
+
+
 #endif /* Clazz_hpp */

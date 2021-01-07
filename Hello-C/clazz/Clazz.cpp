@@ -66,3 +66,16 @@ void Box::setHeight( double hei )
 void display(Box obj){
     cout<< "box 大小："<<obj.getLength() <<endl;
 }
+
+
+void PrintData:: print(int i){
+    cout << "整型为: " << i << endl;
+}
+void PrintData:: print(double f){
+    cout << "浮点数为: " << f << endl;
+}
+void PrintData:: print(char c[] ){
+    cout << "字符串为: " << c << endl;
+}
+
+

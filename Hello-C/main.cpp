@@ -69,5 +69,16 @@ int main(int argc, const char * argv[]) {
     printf("Rectangle total area : %d\n", rect.getArea());
     
 
+    PrintData printData;
+    
+    printData.print(100);
+
+    printData.print(100);
+    
+    char c[] ="Hello C++";
+    printData.print(100);
+    printData.print(100.01);
+    printData.print(c);
+    
     return 0;
 }
