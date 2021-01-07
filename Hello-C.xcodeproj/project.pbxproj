@@ -15,6 +15,8 @@
 		DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5025A5672F00E086CE /* DynamicAllocation.cpp */; };
 		DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5625A5677A00E086CE /* CharOperate.cpp */; };
 		DF3D0C5D25A567B700E086CE /* Clazz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5B25A567B700E086CE /* Clazz.cpp */; };
+		DF85D99225A6AEC7005E36D8 /* InlineCLass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF85D99025A6AEC7005E36D8 /* InlineCLass.cpp */; };
+		DF85D99725A6F5C1005E36D8 /* ExtendClazz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF85D99525A6F5C1005E36D8 /* ExtendClazz.cpp */; };
 		DF8EC36725A5E3BA00B3D457 /* CopyDestructorClas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,10 @@
 		DF3D0C5725A5677A00E086CE /* CharOperate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CharOperate.hpp; sourceTree = "<group>"; };
 		DF3D0C5B25A567B700E086CE /* Clazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clazz.cpp; sourceTree = "<group>"; };
 		DF3D0C5C25A567B700E086CE /* Clazz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clazz.hpp; sourceTree = "<group>"; };
+		DF85D99025A6AEC7005E36D8 /* InlineCLass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InlineCLass.cpp; sourceTree = "<group>"; };
+		DF85D99125A6AEC7005E36D8 /* InlineCLass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InlineCLass.hpp; sourceTree = "<group>"; };
+		DF85D99525A6F5C1005E36D8 /* ExtendClazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExtendClazz.cpp; sourceTree = "<group>"; };
+		DF85D99625A6F5C1005E36D8 /* ExtendClazz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExtendClazz.hpp; sourceTree = "<group>"; };
 		DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CopyDestructorClas.cpp; sourceTree = "<group>"; };
 		DF8EC36625A5E3BA00B3D457 /* CopyDestructorClas.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CopyDestructorClas.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +87,7 @@
 		DF3D0C3125A5651F00E086CE /* Hello-C */ = {
 			isa = PBXGroup;
 			children = (
+				DF85D99425A6F59E005E36D8 /* extend */,
 				DF3D0C5A25A567A700E086CE /* clazz */,
 				DF3D0C5525A5676100E086CE /* char */,
 				DF3D0C4F25A5671B00E086CE /* dynamicAllocation */,
@@ -138,8 +145,19 @@
 				DF3D0C5C25A567B700E086CE /* Clazz.hpp */,
 				DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */,
 				DF8EC36625A5E3BA00B3D457 /* CopyDestructorClas.hpp */,
+				DF85D99025A6AEC7005E36D8 /* InlineCLass.cpp */,
+				DF85D99125A6AEC7005E36D8 /* InlineCLass.hpp */,
 			);
 			path = clazz;
+			sourceTree = "<group>";
+		};
+		DF85D99425A6F59E005E36D8 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				DF85D99525A6F5C1005E36D8 /* ExtendClazz.cpp */,
+				DF85D99625A6F5C1005E36D8 /* ExtendClazz.hpp */,
+			);
+			path = extend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */,
+				DF85D99225A6AEC7005E36D8 /* InlineCLass.cpp in Sources */,
+				DF85D99725A6F5C1005E36D8 /* ExtendClazz.cpp in Sources */,
 				DF3D0C4C25A566CC00E086CE /* IO.cpp in Sources */,
 				DF3D0C4625A5665100E086CE /* StructPointer.cpp in Sources */,
 				DF8EC36725A5E3BA00B3D457 /* CopyDestructorClas.cpp in Sources */,
