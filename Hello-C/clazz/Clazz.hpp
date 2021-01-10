@@ -34,6 +34,9 @@ class Box
         void setBreadth( double bre );
         void setHeight( double hei );
         double getLength();
+        
+        //重载操作符重载
+        Box operator+(const Box &b);
     
        
     
@@ -57,6 +60,8 @@ public:
     void print(int i);
     void print(double f);
     void print(char c[]);
+    
+  
 };
 
 

@@ -15,6 +15,8 @@
 		DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5025A5672F00E086CE /* DynamicAllocation.cpp */; };
 		DF3D0C5825A5677A00E086CE /* CharOperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5625A5677A00E086CE /* CharOperate.cpp */; };
 		DF3D0C5D25A567B700E086CE /* Clazz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D0C5B25A567B700E086CE /* Clazz.cpp */; };
+		DF849C2525A9511400000D40 /* NameSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF849C2325A9511400000D40 /* NameSpace.cpp */; };
+		DF849C2B25A9922900000D40 /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF849C2925A9922900000D40 /* Template.cpp */; };
 		DF85D99225A6AEC7005E36D8 /* InlineCLass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF85D99025A6AEC7005E36D8 /* InlineCLass.cpp */; };
 		DF85D99725A6F5C1005E36D8 /* ExtendClazz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF85D99525A6F5C1005E36D8 /* ExtendClazz.cpp */; };
 		DF8EC36725A5E3BA00B3D457 /* CopyDestructorClas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF8EC36525A5E3BA00B3D457 /* CopyDestructorClas.cpp */; };
@@ -49,6 +51,10 @@
 		DF3D0C5725A5677A00E086CE /* CharOperate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CharOperate.hpp; sourceTree = "<group>"; };
 		DF3D0C5B25A567B700E086CE /* Clazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clazz.cpp; sourceTree = "<group>"; };
 		DF3D0C5C25A567B700E086CE /* Clazz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clazz.hpp; sourceTree = "<group>"; };
+		DF849C2325A9511400000D40 /* NameSpace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NameSpace.cpp; sourceTree = "<group>"; };
+		DF849C2425A9511400000D40 /* NameSpace.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NameSpace.hpp; sourceTree = "<group>"; };
+		DF849C2925A9922900000D40 /* Template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Template.cpp; sourceTree = "<group>"; };
+		DF849C2A25A9922900000D40 /* Template.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Template.hpp; sourceTree = "<group>"; };
 		DF85D99025A6AEC7005E36D8 /* InlineCLass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InlineCLass.cpp; sourceTree = "<group>"; };
 		DF85D99125A6AEC7005E36D8 /* InlineCLass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InlineCLass.hpp; sourceTree = "<group>"; };
 		DF85D99525A6F5C1005E36D8 /* ExtendClazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExtendClazz.cpp; sourceTree = "<group>"; };
@@ -87,6 +93,9 @@
 		DF3D0C3125A5651F00E086CE /* Hello-C */ = {
 			isa = PBXGroup;
 			children = (
+				DF849C2725A9920D00000D40 /* template */,
+				DF849C2225A950ED00000D40 /* namespace */,
+				DF849C2025A83C9700000D40 /* memory */,
 				DF85D99425A6F59E005E36D8 /* extend */,
 				DF3D0C5A25A567A700E086CE /* clazz */,
 				DF3D0C5525A5676100E086CE /* char */,
@@ -149,6 +158,31 @@
 				DF85D99125A6AEC7005E36D8 /* InlineCLass.hpp */,
 			);
 			path = clazz;
+			sourceTree = "<group>";
+		};
+		DF849C2025A83C9700000D40 /* memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = memory;
+			sourceTree = "<group>";
+		};
+		DF849C2225A950ED00000D40 /* namespace */ = {
+			isa = PBXGroup;
+			children = (
+				DF849C2325A9511400000D40 /* NameSpace.cpp */,
+				DF849C2425A9511400000D40 /* NameSpace.hpp */,
+			);
+			path = namespace;
+			sourceTree = "<group>";
+		};
+		DF849C2725A9920D00000D40 /* template */ = {
+			isa = PBXGroup;
+			children = (
+				DF849C2925A9922900000D40 /* Template.cpp */,
+				DF849C2A25A9922900000D40 /* Template.hpp */,
+			);
+			path = template;
 			sourceTree = "<group>";
 		};
 		DF85D99425A6F59E005E36D8 /* extend */ = {
@@ -222,7 +256,9 @@
 				DF3D0C4C25A566CC00E086CE /* IO.cpp in Sources */,
 				DF3D0C4625A5665100E086CE /* StructPointer.cpp in Sources */,
 				DF8EC36725A5E3BA00B3D457 /* CopyDestructorClas.cpp in Sources */,
+				DF849C2B25A9922900000D40 /* Template.cpp in Sources */,
 				DF3D0C4125A5660A00E086CE /* FunctionPointer.cpp in Sources */,
+				DF849C2525A9511400000D40 /* NameSpace.cpp in Sources */,
 				DF3D0C5225A5672F00E086CE /* DynamicAllocation.cpp in Sources */,
 				DF3D0C3D25A5655100E086CE /* pointerOperate.cpp in Sources */,
 				DF3D0C5D25A567B700E086CE /* Clazz.cpp in Sources */,

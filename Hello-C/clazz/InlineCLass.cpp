@@ -24,5 +24,5 @@ string People::getName(){
 
 void printName(People people){
    
-    cout<<"name of People :::"<<people.name<<endl;
+    cout<<"name of People ::"<<people.name<<endl;
 }

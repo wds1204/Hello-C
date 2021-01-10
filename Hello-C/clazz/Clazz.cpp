@@ -62,6 +62,14 @@ void Box::setHeight( double hei )
     height = hei;
 }
 
+Box Box::operator+(const Box &b)
+{
+    Box box;
+    box.setLength(b.length+this->length);
+    box.setHeight(b.height+this->height);
+    box.setBreadth(b.breadth+this->breadth);
+    return box;
+}
 
 void display(Box obj){
     cout<< "box 大小："<<obj.getLength() <<endl;
@@ -77,5 +85,6 @@ void PrintData:: print(double f){
 void PrintData:: print(char c[] ){
     cout << "字符串为: " << c << endl;
 }
+
 
 
